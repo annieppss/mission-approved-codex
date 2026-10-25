@@ -1,1 +1,39 @@
 .DS_Store
+
+# Reinstall the external skill pack with the command in README.md.
+/.agents/
+
+# Reference originals stay local; keep provenance and source URLs.
+/references/*
+!/references/README.md
+
+# Local dependencies, browser artifacts and render caches.
+node_modules/
+.hyperframes/
+.thumbnails/
+.playwright-mcp/
+__pycache__/
+*.pyc
+*.log
+
+# Machine-specific preview records and intermediate build helpers.
+/out/**/preview-*.json
+/out/**/video/build_source.py
+/out/**/video/AGENTS.md
+/out/**/video/CLAUDE.md
+
+# Credentials and environment configuration.
+.env
+.env.*
+.npmrc
+.netrc
+.pypirc
+credentials.json
+secrets.yaml
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*

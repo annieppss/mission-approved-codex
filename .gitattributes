@@ -1,0 +1,2 @@
+# Keep approved third-party minified bundles byte-for-byte and out of text diffs.
+out/**/video/assets/vendor/*.min.js -diff linguist-vendored=true

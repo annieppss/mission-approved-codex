@@ -1,0 +1,32 @@
+<template>
+<style>
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-Regular.otf') format('opentype');font-weight:400;font-display:block}
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-SemiBold.otf') format('opentype');font-weight:600;font-display:block}
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-Bold.otf') format('opentype');font-weight:700;font-display:block}
+#root{position:absolute;inset:0}
+.stage{position:absolute;inset:0;background:var(--video-bg,#ffffff);overflow:hidden}
+.title-box{position:absolute;width:max-content;max-width:none;translate:-50% -50%;z-index:2}
+h1{margin:0;color:var(--video-text,#18191b);font-family:Pretendard;font-size:var(--video-head,78.4px);line-height:var(--video-head-leading,95.2px);font-weight:700;letter-spacing:0;text-align:center;white-space:pre}
+.phone-position{position:absolute;width:390px;height:844px}
+.phone-motion{width:100%;height:100%;transform-origin:50% 50%}
+.phone-motion img{display:block;width:100%;height:100%;object-fit:contain}
+.part-position{position:absolute}
+.part-motion{position:relative;width:100%;height:100%;transform-origin:50% 50%}
+iframe{display:block;border:0;background:transparent;overflow:hidden}
+.brand-position{position:absolute;left:570px;top:490.2684563758389px;width:780px;height:99.46308724832215px}
+.brand-position img{display:block;width:100%;height:100%;object-fit:contain}
+</style>
+<div data-hf-id="hf-nvdt" id="root" data-composition-id="a1" data-width="1920" data-height="1080">
+  <div data-hf-id="hf-tidy" id="a1-clip" class="clip" data-start="0" data-duration="2.5" data-track-index="0">
+    <div data-hf-id="hf-2tiz" id="a1-stage" class="stage"><div data-hf-id="hf-h194" id="a1-title" class="title-box" style="left:960.0px;top:540.0px"><h1 data-hf-id="hf-oq32" id="a1-copy" data-var-text="a1-copy">오늘도 하나씩,
+내 실력으로</h1></div></div>
+  </div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#a1-copy',{y:24,opacity:0},{y:0,opacity:1,duration:0.4,ease:'power2.out',immediateRender:true},0);
+tl.fromTo('#a1-copy',{opacity:1},{opacity:0,duration:.2,ease:'power2.in',immediateRender:false},2.3);
+window.__timelines=window.__timelines||{};
+window.__timelines['a1']=tl;
+</script>
+</template>

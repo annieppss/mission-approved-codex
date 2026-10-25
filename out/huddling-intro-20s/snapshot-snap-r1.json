@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "outputDir": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap",
+  "frames": [
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/frame-00-at-1.5s.png",
+      "time": 1.5
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/frame-01-at-5s.png",
+      "time": 5
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/frame-02-at-9s.png",
+      "time": 9
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/frame-03-at-13s.png",
+      "time": 13
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/frame-04-at-16s.png",
+      "time": 16
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/frame-05-at-19s.png",
+      "time": 19
+    }
+  ],
+  "contactSheets": [
+    "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.198",
+    "updateAvailable": false
+  }
+}

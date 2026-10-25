@@ -1,0 +1,118 @@
+{
+  "revision": "snap-A-r1",
+  "scene_revision": "scenes-A-r1",
+  "scope": "actual rendered snapshot images; no MP4",
+  "board": "snap/board.png",
+  "board_sha256": "b27e85719c6d68b03b23263b43a6c52189fa0fa0bb2878d868ccc25e61f841b6",
+  "frames": [
+    {
+      "scene": "A1",
+      "label": "도입",
+      "time": 1.5,
+      "file": "snap/A1.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "cc0f87ac6404780afb3bcbdf63c9b341ad9c2c010557c5172ba5a6e081bfdabf"
+    },
+    {
+      "scene": "A2",
+      "label": "스킬 발견",
+      "time": 5,
+      "file": "snap/A2.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "8edca34d06ccbeaa7764255eb43a0f71550d388c5502e48a4c74f45fb5f0a31b"
+    },
+    {
+      "scene": "A3",
+      "label": "미션 적용",
+      "time": 9,
+      "file": "snap/A3.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "4291dc6634602d8958632ce06b5a62a6fa2ce954a796f777bf88b393ebce21a3"
+    },
+    {
+      "scene": "A4",
+      "label": "검토 후 결과",
+      "time": 13,
+      "file": "snap/A4.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3e5890465dc0150c54297d85251f442afdd01994beccfc901a27da1594a9c3f6"
+    },
+    {
+      "scene": "A5",
+      "label": "쌓이는 가치",
+      "time": 16,
+      "file": "snap/A5.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3babfe1a7d3c3b1fb429159a8cd1ff68cccd0c34681892842bfeeca9db4148d8"
+    },
+    {
+      "scene": "A6",
+      "label": "브랜드",
+      "time": 19,
+      "file": "snap/A6.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "934fb178a4dbbb93b7c9714f384de567a1f819602ba8c5fc96b49e6eb51649c2"
+    }
+  ],
+  "evidence_frames": [
+    "snap/evidence/frame-00-at-2.5s.png",
+    "snap/evidence/frame-01-at-2.7s.png",
+    "snap/evidence/frame-02-at-3.25s.png",
+    "snap/evidence/frame-03-at-4s.png",
+    "snap/evidence/frame-04-at-6.7s.png",
+    "snap/evidence/frame-05-at-6.9s.png",
+    "snap/evidence/frame-06-at-7.4s.png",
+    "snap/evidence/frame-07-at-7.9s.png",
+    "snap/evidence/frame-08-at-14.7s.png",
+    "snap/evidence/frame-09-at-14.9s.png",
+    "snap/evidence/frame-10-at-15.3s.png",
+    "snap/evidence/frame-11-at-19.967s.png"
+  ],
+  "source_hashes": {
+    "video/assets/fonts/Pretendard-Bold.otf": "c806d794da631f55bf7c61038f1b0b34484537955c984eb0df4cf70a93fc1e51",
+    "video/assets/fonts/Pretendard-Regular.otf": "4d4d99a2ea7d8e54ac7a9e89b9cc8d6e1c477dc2a458a1f73115a48d561f3c66",
+    "video/assets/fonts/Pretendard-SemiBold.otf": "e638d92f6ff46ce637f39ac83e95eb5f898fee6260b07020effcab1655e8a5a9",
+    "video/assets/source/assets/buddy-front-1.png": "bbb8a251f9180311f13e751ef58545568a0cdd1602391e2ba0a5d2416c17ab6d",
+    "video/assets/source/assets/buddy-front-2.png": "d455e3b0747964409952c07a8b9da9ee1501540703cb44dd29f82dbd09022f74",
+    "video/assets/source/assets/fonts/Pretendard-Regular.otf": "4d4d99a2ea7d8e54ac7a9e89b9cc8d6e1c477dc2a458a1f73115a48d561f3c66",
+    "video/assets/source/assets/fonts/Pretendard-SemiBold.otf": "e638d92f6ff46ce637f39ac83e95eb5f898fee6260b07020effcab1655e8a5a9",
+    "video/assets/source/assets/logo-logotype-black.svg": "568763256a3425f2c1464d54c4d515020c893b92f523f58bdccb8056b3286ab2",
+    "video/assets/source/parts/asset-card.html": "18b5807001407586218deef92ec47385564e7c0d9eb007ae65ab83f8cee7c00c",
+    "video/assets/source/parts/badge-approved.html": "11444b965c4d8093ceafd7437d06f35509fc3f266c55af0ce7eec570f6bb658b",
+    "video/assets/source/parts/button-submit.html": "cfba06f3a29279abba60fcfc8e1d56788686dc332ad81eb9eac9ca8350ef8868",
+    "video/assets/source/screens/02-skills.png": "495a0472833991bada4cf8dc023a7c97a6986ba241729f4c38f39cb81e15b7ad",
+    "video/assets/source/screens/03-mission.png": "25e1b834a42053696b510bb03028621b2f554491e05768a6f1ed3aad04f871e0",
+    "video/assets/source/screens/04-approved.png": "93c7f02962cf533f6b5856238b9f828643a7f498b678ba56264e3cc9dc0ca661",
+    "video/assets/vendor/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+    "video/compositions/a1.html": "ce06cbb649e02cbbc896e39e929cb9ac0ce4d3be445bee750a1b26bfa7b3d12a",
+    "video/compositions/a2.html": "48ac90eba1798588b4767b4b14b1fadd5ef553182ea91ae3b5ad25240ff3e779",
+    "video/compositions/a3.html": "e5925fe06c8d3cd668a691cb17bee86167bc1d4499fb1929c07369e4a6c80f45",
+    "video/compositions/a4.html": "d652c260585b40d0948dab245dcac13a1bd605c627a2071bbde9c602ac04ed47",
+    "video/compositions/a5.html": "e20452a7c460b3fead9ab717dca4b7db674787c4db718990cb06645763cc2c0e",
+    "video/compositions/a6.html": "f736378925908523f980557f687aed6654c01cfda9c638889b2422295617aa7c",
+    "video/hyperframes.json": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+    "video/index.html": "1cc307bf19b1ff5540c58e146e31648c53c0f6a48802dc5044171b06f481f506",
+    "video/meta.json": "5a6a5b8404360c3ef28365fe24e1dc340b0bfdceae18d055920498a6c83af4eb",
+    "video/package.json": "6ae94fabf449f6fd99dcf862a8dcf726bb6459fcf4b8e9502d6d6cc5724a03ae"
+  },
+  "source_binding_policy": "Rendered composition HTML and its declared local dependencies plus required root project settings only. Excludes .thumbnails, .hyperframes, node_modules, unused source assets, check sidecars, instructions and build helpers.",
+  "source_aggregate_sha256": "c4a0989a00992540b2adf169fbdd1dbe68f35d60248ac505289efb696c14d4ff"
+}

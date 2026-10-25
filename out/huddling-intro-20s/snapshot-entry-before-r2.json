@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "outputDir": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/audit/snap-A-r1/entry-evidence",
+  "frames": [
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/audit/snap-A-r1/entry-evidence/frame-00-at-11.1s.png",
+      "time": 11.1
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/audit/snap-A-r1/entry-evidence/frame-01-at-15.1s.png",
+      "time": 15.1
+    }
+  ],
+  "contactSheets": [
+    "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/audit/snap-A-r1/entry-evidence/contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.198",
+    "updateAvailable": false
+  }
+}

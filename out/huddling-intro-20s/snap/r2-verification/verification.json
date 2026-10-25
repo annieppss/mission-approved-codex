@@ -1,0 +1,76 @@
+{
+  "revision": "snap-A-r2",
+  "cause": "MOVE-UNIT",
+  "stable_frames": [
+    {
+      "scene": "A1",
+      "r2_capture": "snap/r2-verification/frame-00-at-1.5s.png",
+      "pixels_identical_to_r1": true,
+      "png_sha256": "cc0f87ac6404780afb3bcbdf63c9b341ad9c2c010557c5172ba5a6e081bfdabf"
+    },
+    {
+      "scene": "A2",
+      "r2_capture": "snap/r2-verification/frame-01-at-5s.png",
+      "pixels_identical_to_r1": true,
+      "png_sha256": "8edca34d06ccbeaa7764255eb43a0f71550d388c5502e48a4c74f45fb5f0a31b"
+    },
+    {
+      "scene": "A3",
+      "r2_capture": "snap/r2-verification/frame-02-at-9s.png",
+      "pixels_identical_to_r1": true,
+      "png_sha256": "4291dc6634602d8958632ce06b5a62a6fa2ce954a796f777bf88b393ebce21a3"
+    },
+    {
+      "scene": "A4",
+      "r2_capture": "snap/r2-verification/frame-04-at-13s.png",
+      "pixels_identical_to_r1": true,
+      "png_sha256": "3e5890465dc0150c54297d85251f442afdd01994beccfc901a27da1594a9c3f6"
+    },
+    {
+      "scene": "A5",
+      "r2_capture": "snap/r2-verification/frame-06-at-16s.png",
+      "pixels_identical_to_r1": true,
+      "png_sha256": "3babfe1a7d3c3b1fb429159a8cd1ff68cccd0c34681892842bfeeca9db4148d8"
+    },
+    {
+      "scene": "A6",
+      "r2_capture": "snap/r2-verification/frame-07-at-19s.png",
+      "pixels_identical_to_r1": true,
+      "png_sha256": "934fb178a4dbbb93b7c9714f384de567a1f819602ba8c5fc96b49e6eb51649c2"
+    }
+  ],
+  "entry_comparison": [
+    {
+      "scene": "A4",
+      "time": 11.1,
+      "r1_capture": "snap/audit/snap-A-r1/entry-evidence/frame-00-at-11.1s.png",
+      "r2_capture": "snap/r2-verification/frame-03-at-11.1s.png",
+      "changed_pixel_bbox": [
+        1245,
+        601,
+        1635,
+        725
+      ],
+      "source_move_px": 24,
+      "static_fit": 3.611111111111111,
+      "output_move_px": 86.66666666666667,
+      "midpoint_remaining_y_px": 10.833333333333334
+    },
+    {
+      "scene": "A5",
+      "time": 15.1,
+      "r1_capture": "snap/audit/snap-A-r1/entry-evidence/frame-01-at-15.1s.png",
+      "r2_capture": "snap/r2-verification/frame-05-at-15.1s.png",
+      "changed_pixel_bbox": [
+        570,
+        733,
+        1350,
+        902
+      ],
+      "source_move_px": 24,
+      "static_fit": 2.2285714285714286,
+      "output_move_px": 53.48571428571429,
+      "midpoint_remaining_y_px": 6.685714285714286
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "outputDir": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence",
+  "frames": [
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-00-at-2.5s.png",
+      "time": 2.5
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-01-at-2.7s.png",
+      "time": 2.7
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-02-at-3.25s.png",
+      "time": 3.25
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-03-at-4s.png",
+      "time": 4
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-04-at-6.7s.png",
+      "time": 6.7
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-05-at-6.9s.png",
+      "time": 6.9
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-06-at-7.4s.png",
+      "time": 7.4
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-07-at-7.9s.png",
+      "time": 7.9
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-08-at-14.7s.png",
+      "time": 14.7
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-09-at-14.9s.png",
+      "time": 14.9
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-10-at-15.3s.png",
+      "time": 15.3
+    },
+    {
+      "path": "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/frame-11-at-19.967s.png",
+      "time": 19.967
+    }
+  ],
+  "contactSheets": [
+    "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/contact-sheet-1.jpg",
+    "/Users/parksojung/Desktop/프로젝트/개인/허들링/huddling-motion-start/out/huddling-intro-20s/snap/evidence/contact-sheet-2.jpg"
+  ],
+  "_meta": {
+    "version": "0.8.198",
+    "updateAvailable": false
+  }
+}

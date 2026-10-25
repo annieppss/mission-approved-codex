@@ -1,0 +1,31 @@
+<template>
+<style>
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-Regular.otf') format('opentype');font-weight:400;font-display:block}
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-SemiBold.otf') format('opentype');font-weight:600;font-display:block}
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-Bold.otf') format('opentype');font-weight:700;font-display:block}
+#root{position:absolute;inset:0}
+.stage{position:absolute;inset:0;background:var(--video-bg,#ffffff);overflow:hidden}
+.title-box{position:absolute;width:max-content;max-width:none;translate:-50% -50%;z-index:2}
+h1{margin:0;color:var(--video-text,#18191b);font-family:Pretendard;font-size:var(--video-head,78.4px);line-height:var(--video-head-leading,95.2px);font-weight:700;letter-spacing:0;text-align:center;white-space:pre}
+.phone-position{position:absolute;width:390px;height:844px}
+.phone-motion{width:100%;height:100%;transform-origin:50% 50%}
+.phone-motion img{display:block;width:100%;height:100%;object-fit:contain}
+.part-position{position:absolute}
+.part-motion{position:relative;width:100%;height:100%;transform-origin:50% 50%}
+iframe{display:block;border:0;background:transparent;overflow:hidden}
+.brand-position{position:absolute;left:570px;top:490.2684563758389px;width:780px;height:99.46308724832215px}
+.brand-position img{display:block;width:100%;height:100%;object-fit:contain}
+</style>
+<div data-hf-id="hf-ogsk" id="root" data-composition-id="a2" data-width="1920" data-height="1080">
+  <div data-hf-id="hf-c7ga" id="a2-clip" class="clip" data-start="0" data-duration="4.4" data-track-index="0">
+    <div data-hf-id="hf-j804" id="a2-stage" class="stage"><div data-hf-id="hf-msp6" id="a2-title" class="title-box" style="left:960.0px;top:59.0px"><h1 data-hf-id="hf-qfjq" id="a2-copy" data-var-text="a2-copy">일에 바로 적용하는 AI</h1></div><div data-hf-id="hf-4ibl" id="a2-phone-position" class="phone-position" style="left:765.0px;top:118.0px"><div data-hf-id="hf-eo2e" id="a2-phone-motion" class="phone-motion"><img data-hf-id="hf-to7t" id="a2-screen" src="assets/source/screens/02-skills.png" width="390" height="844" alt="허들링 클럽 실제 서비스 화면" data-source="src/screens/02-skills.png"></div></div></div>
+  </div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#a2-copy',{y:24,opacity:0},{y:0,opacity:1,duration:0.4,ease:'power2.out',immediateRender:true},0);
+tl.fromTo('#a2-phone-motion',{y:24,scale:.8},{y:0,scale:1,duration:1.5,ease:'power2.out'},0);
+window.__timelines=window.__timelines||{};
+window.__timelines['a2']=tl;
+</script>
+</template>

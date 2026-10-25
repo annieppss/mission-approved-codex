@@ -1,0 +1,14 @@
+{
+  "duration": 4.4,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#a4-copy",
+      "bySec": 0.8
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#a4-copy"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "frames": [
+    {
+      "scene": "A1",
+      "label": "도입",
+      "time": 1.5,
+      "file": "snap/A1.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "cc0f87ac6404780afb3bcbdf63c9b341ad9c2c010557c5172ba5a6e081bfdabf"
+    },
+    {
+      "scene": "A2",
+      "label": "스킬 발견",
+      "time": 5,
+      "file": "snap/A2.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "8edca34d06ccbeaa7764255eb43a0f71550d388c5502e48a4c74f45fb5f0a31b"
+    },
+    {
+      "scene": "A3",
+      "label": "미션 적용",
+      "time": 9,
+      "file": "snap/A3.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "4291dc6634602d8958632ce06b5a62a6fa2ce954a796f777bf88b393ebce21a3"
+    },
+    {
+      "scene": "A4",
+      "label": "검토 후 결과",
+      "time": 13,
+      "file": "snap/A4.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3e5890465dc0150c54297d85251f442afdd01994beccfc901a27da1594a9c3f6"
+    },
+    {
+      "scene": "A5",
+      "label": "쌓이는 가치",
+      "time": 16,
+      "file": "snap/A5.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3babfe1a7d3c3b1fb429159a8cd1ff68cccd0c34681892842bfeeca9db4148d8"
+    },
+    {
+      "scene": "A6",
+      "label": "브랜드",
+      "time": 19,
+      "file": "snap/A6.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "934fb178a4dbbb93b7c9714f384de567a1f819602ba8c5fc96b49e6eb51649c2"
+    }
+  ],
+  "board": "snap/board.png",
+  "board_sha256": "b27e85719c6d68b03b23263b43a6c52189fa0fa0bb2878d868ccc25e61f841b6"
+}

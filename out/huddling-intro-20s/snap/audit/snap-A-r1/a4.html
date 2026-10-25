@@ -1,0 +1,33 @@
+<template>
+<style>
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-Regular.otf') format('opentype');font-weight:400;font-display:block}
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-SemiBold.otf') format('opentype');font-weight:600;font-display:block}
+@font-face{font-family:Pretendard;src:url('assets/fonts/Pretendard-Bold.otf') format('opentype');font-weight:700;font-display:block}
+#root{position:absolute;inset:0}
+.stage{position:absolute;inset:0;background:var(--video-bg,#ffffff);overflow:hidden}
+.title-box{position:absolute;width:max-content;max-width:none;translate:-50% -50%;z-index:2}
+h1{margin:0;color:var(--video-text,#18191b);font-family:Pretendard;font-size:var(--video-head,78.4px);line-height:var(--video-head-leading,95.2px);font-weight:700;letter-spacing:0;text-align:center;white-space:pre}
+.phone-position{position:absolute;width:390px;height:844px}
+.phone-motion{width:100%;height:100%;transform-origin:50% 50%}
+.phone-motion img{display:block;width:100%;height:100%;object-fit:contain}
+.part-position{position:absolute}
+.part-motion{position:relative;width:100%;height:100%;transform-origin:50% 50%}
+iframe{display:block;border:0;background:transparent;overflow:hidden}
+.brand-position{position:absolute;left:570px;top:490.2684563758389px;width:780px;height:99.46308724832215px}
+.brand-position img{display:block;width:100%;height:100%;object-fit:contain}
+</style>
+<div data-hf-id="hf-t8xe" id="root" data-composition-id="a4" data-width="1920" data-height="1080">
+  <div data-hf-id="hf-phzw" id="a4-clip" class="clip" data-start="0" data-duration="4.4" data-track-index="0">
+    <div data-hf-id="hf-d2mq" id="a4-stage" class="stage"><div data-hf-id="hf-gwf8" id="a4-title" class="title-box" style="left:1440.0px;top:424.44444444444446px"><h1 data-hf-id="hf-rf9w" id="a4-copy" data-var-text="a4-copy">검토를 거쳐,
+내 자산으로</h1></div><div data-hf-id="hf-h7gg" id="a4-phone-position" class="phone-position" style="left:285.0px;top:118.0px"><div data-hf-id="hf-9l2k" id="a4-phone-motion" class="phone-motion"><img data-hf-id="hf-532b" id="a4-screen" src="assets/source/screens/04-approved.png" width="390" height="844" alt="허들링 클럽 실제 서비스 화면" data-source="src/screens/04-approved.png"></div></div><div data-hf-id="hf-tg3w" id="a4-part-position" class="part-position" style="left:1245.0px;top:597.7777777777777px;width:390px;height:115.55555555555556px"><div data-hf-id="hf-3kgq" id="a4-part-motion" class="part-motion"><iframe data-hf-id="hf-hobh" id="a4-part" title="원본 badge-approved.html" src="assets/source/parts/badge-approved.html" style="width:108px;height:32px;transform:scale(3.611111111111111);transform-origin:0 0" data-source="src/parts/badge-approved.html" scrolling="no"></iframe></div></div></div>
+  </div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#a4-stage',{clipPath:'inset(0% 0% 100% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',duration:.4,ease:'power2.out'},0);
+tl.fromTo('#a4-copy',{y:24,opacity:0},{y:0,opacity:1,duration:0.4,ease:'power2.out',immediateRender:true},0);
+tl.fromTo('#a4-part-motion',{y:24,opacity:0},{y:0,opacity:1,duration:0.4,ease:'power2.out',immediateRender:true},0.4);
+window.__timelines=window.__timelines||{};
+window.__timelines['a4']=tl;
+</script>
+</template>

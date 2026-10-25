@@ -1,0 +1,20 @@
+{
+  "stage": "video_building",
+  "scene_approval": "사용자 구조화 응답: 승인 · 스냅보드 제작",
+  "scene_revision": "scenes-A-r1",
+  "snap_approval": "사용자 구조화 응답: 승인 · 영상 제작",
+  "snap_revision": "snap-A-r2",
+  "manifest_sha256": "83fa940af9ae22405b303cb8dcb3ad75ce1e5d2f31a84cc8d593d0d61eb4c12c",
+  "source_aggregate_sha256": "13e4891e97304b1b5a582a644500b458e2d732778b8b6f8cf6753e9d7ea43098",
+  "baseline_inputs_verified": 51,
+  "render_inputs_verified": 25,
+  "snap_frames_verified": 6,
+  "mismatches": [],
+  "state_sha256": "a52d825c9a76da63b460857ecb68229f5a9a9ab1c1bb1634c618355c418d7a3f",
+  "audio_fallback": "sound.md §3: no user track; heygen unavailable; no existing local music provider; silent delivery",
+  "tools": {
+    "ffmpeg": "/opt/homebrew/bin/ffmpeg",
+    "ffprobe": "/opt/homebrew/bin/ffprobe",
+    "heygen": null
+  }
+}

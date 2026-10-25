@@ -1,0 +1,14 @@
+{
+  "duration": 3,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#a6-logo",
+      "bySec": 0.4
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#a6-logo"
+    }
+  ]
+}
